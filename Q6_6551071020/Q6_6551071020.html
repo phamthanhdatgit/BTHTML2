@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Test</title>
+    <style>
+        label {
+            display:inline-block;
+            width:150px;
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+    <h4><b>HTML Form Test</b></h4>
+    <h1 style="text-align:right">Ex-10</h1>
+    <form>
+        <div>
+        <label for="name">Name</label>
+        <input type="text" name="Name" size="20"><br/><br/>
+        </div>
+        
+        <div>
+        <label for="address">Address</label>
+        <input type="text" name="Address" size="20"><br/><br/>
+        </div>
+
+        <div>
+        <label for="email">Email</label>
+        <input type="text" name="Email" size="20"><br/><br/>
+        </div>
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="sex1" value="Male">
+        <label for="sex1" style="width:50px">Male</label> 
+        <input type="radio" name="sex2" value="Female">
+        <label for="sex2">Female</label><br/><br/>
+        <label for="hobbies">Hobbies</label>
+        <input type="checkbox" name="hobby1" value="Sports">
+        <label for="hobby1" style="width:50px">Sports</label>
+        <input type="checkbox" name="hobby2" value="Movies">
+        <label for="hobby2" style="width:50px">Movies</label>
+        <input type="checkbox" name="hobby3" value="Travelling">
+        <label for="hobby3">Travelling</label><br/><br/>
+        <label for="country">Country</label>
+        <select name="Country">
+            <option value="Nepal">Nepal</option>
+            <option value="VN">Vietnam</option>
+            <option value="CN">China</option>
+            <option value="USA">United States of America</option>
+        </select><br/><br/>
+        <div>
+        <label for="message">Message</label>
+        <input type="text" name="Message" style="width:300px; height:200px"><br/><br/>
+        </div>
+        <label for=""></label>
+        <input type="submit" name="btnSubmit" value="Submit">
+        <input type="reset" name="btnReset" value="Reset">
+    </form>
+</body>
+</html>
